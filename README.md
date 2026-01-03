@@ -12,6 +12,25 @@ cleaning, visualization, and insights derived from the dataset
 
 ------------------------------------------------------------------------
 
+## Key Insights & Findings
+* **Top Performance Channels**: The website's traffic is primarily driven by **Direct** and **Organic Social** channels, which show high session counts and consistent user acquisition.
+* **Healthy Engagement**: The average engagement rate across most hours remains around **50%**, indicating that half of all site visits result in meaningful interaction.
+* **High Interaction Depth**: Users generate an average of **4 to 5 events per session**, suggesting a high level of content consumption and navigation depth.
+* **Peak Activity Windows**: Analysis of the `Hour` metric reveals specific time windows (late evening) where user volume and event counts peak, offering optimal times for content deployment.
+* **Engagement vs. Volume**: Time-series analysis shows that while session volume fluctuates, the engagement rate remains relatively stable, though some high-volume periods see slight quality variations.
+
+------------------------------------------------------------------------
+
+## 🛠️ Tech Stack
+* **Language**: Python 3.x
+* **Libraries**: 
+    * `Pandas`: Data manipulation and time-series conversion.
+    * `NumPy`: Numerical calculations.
+    * `Matplotlib` & `Seaborn`: Advanced data visualization (time-series, boxplots).
+* **Environment**: Jupyter Notebook.
+
+------------------------------------------------------------------------
+
 ## Files in this Project
 
 -   **`performance aly.ipynb`** → Jupyter Notebook with step-by-step
@@ -78,3 +97,9 @@ pip install plotly scikit-learn
 
 ------------------------------------------------------------------------
 
+## Project Structure
+```text
+WbsiteDataAnalytics/
+├── data-export (1).csv    # Raw hourly performance data
+├── performance aly.ipynb  # Comprehensive analysis & visualization notebook
+└── README.md              # Project documentation
